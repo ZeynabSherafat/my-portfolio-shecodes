@@ -6,24 +6,25 @@ h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
   font-weight: 700;
+  text-align: center;
 }
 .top-box {
   background-color: #f9f7fe;
   text-align: center;
-  padding: 180px 100px;
+  padding: 180px 20px;
 }
 .top-box p {
   font-family: var(--paragraph-font-family);
   font-size: 36px;
   font-weight: 700;
-  line-height: 35px;
   color: #272142;
 }
 .top-box h2 {
   font-family: var(--paragraph-font-family);
   font-size: 24px;
   font-weight: 400;
-  line-height: 80px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   color: #272142;
 }
 .get-started {
@@ -35,4 +36,58 @@ h1 {
   border-radius: 4px;
   padding: 15px 40px;
   margin-top: 20px;
+}
+.first-paragraph {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.project-title {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  font-weight: 700;
+}
+.project-description {
+  font-family: var(--paragraph-font-family);
+  font-weight: normal;
+  font-size: 16px;
+  color: #68647b;
+  line-height: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.app-button {
+  background-color: white !important;
+  color: #6c63ff !important;
+  font-family: var(--paragraph-font-family);
+  font-size: 16px;
+  font-weight: normal;
+  border-radius: 4px;
+  padding: 15px 40px;
+  border: 1px solid #6c63ff;
+}
+.description {
+  margin: 80px 30px;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 45px;
+  }
+  .row {
+    margin-bottom: -80px !important;
+  }
+  .description {
+    text-align: center !important;
+  }
+  .top-box {
+    padding: 100px 20px;
+  }
+  .first-paragraph {
+    margin-top: 50px;
+    margin-bottom: -30px;
+  }
+  .project-title {
+    font-size: 40px;
+    margin-bottom: -20px;
+  }
 }
