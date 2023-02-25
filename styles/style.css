@@ -27,7 +27,8 @@ h1 {
   margin-bottom: 40px;
   color: #272142;
 }
-.get-started {
+.get-started,
+.lets-talk-button {
   background-color: #6c63ff !important;
   color: white !important;
   font-family: var(--paragraph-font-family);
@@ -35,7 +36,12 @@ h1 {
   font-weight: normal;
   border-radius: 4px;
   padding: 15px 40px;
+}
+.get-started {
   margin-top: 20px;
+}
+.lets-talk-button {
+  margin-top: 40px;
 }
 .first-paragraph {
   margin-top: 60px;
@@ -67,6 +73,38 @@ h1 {
 }
 .description {
   margin: 80px 30px;
+}
+.bottom-box {
+  background-color: #f9f7fe;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-radius: 20px;
+  padding: 35px 68px;
+}
+.work-inquiry {
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+  font-size: 48px;
+}
+
+.work-together {
+  font-family: var(--paragraph-font-family);
+  font-weight: normal;
+  font-size: 15px;
+  color: #66617a;
+}
+.lets-talk {
+  text-align: right;
+}
+
+.email {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: var(--paragraph-font-family);
+  color: black;
 }
 
 @media (max-width: 960px) {
