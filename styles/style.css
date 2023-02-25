@@ -32,10 +32,10 @@ h1 {
   background-color: #6c63ff !important;
   color: white !important;
   font-family: var(--paragraph-font-family);
-  font-size: 18px;
   font-weight: normal;
   border-radius: 4px;
   padding: 15px 40px;
+  font-size: 18px;
 }
 .get-started {
   margin-top: 20px;
@@ -106,8 +106,27 @@ h1 {
   font-family: var(--paragraph-font-family);
   color: black;
 }
-
-@media (max-width: 960px) {
+.icons-container {
+  margin-bottom: 100px;
+}
+.facebook-icon,
+.twitter-icon,
+.instagram-icon {
+  margin: -32px 20px;
+  color: #6c63ff;
+  background: rgba(108, 99, 255, 0.05);
+  border-radius: 100%;
+  width: 30px;
+  height: 30px;
+}
+.twitter-icon,
+.instagram-icon {
+  padding: 3px 8px;
+}
+.facebook-icon {
+  padding: 3px 10px;
+}
+@media (min-width: 363px) and (max-width: 960px) {
   h1 {
     font-size: 45px;
   }
@@ -127,5 +146,56 @@ h1 {
   .project-title {
     font-size: 40px;
     margin-bottom: -20px;
+  }
+  .bottom-box {
+    text-align: center;
+  }
+  .work-inquiry {
+    font-size: 34px;
+  }
+  .email {
+    margin-top: 113px;
+  }
+  .lets-talk {
+    text-align: center;
+  }
+}
+
+@media (max-width: 363px) {
+  h1 {
+    font-size: 45px;
+  }
+  .row {
+    margin-bottom: -80px !important;
+  }
+  .description {
+    text-align: center !important;
+  }
+  .top-box {
+    padding: 100px 20px;
+  }
+  .first-paragraph {
+    margin-top: 50px;
+    margin-bottom: -30px;
+  }
+  .project-title {
+    font-size: 40px;
+    margin-bottom: -20px;
+  }
+  .bottom-box {
+    text-align: center;
+  }
+  .work-inquiry {
+    font-size: 32px;
+  }
+  .email {
+    margin-top: 113px;
+  }
+  .lets-talk {
+    text-align: center;
+  }
+  .lets-talk-button {
+    font-size: 15px;
+    padding: 15px 32px;
   }
 }
