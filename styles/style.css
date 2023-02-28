@@ -8,6 +8,7 @@ h1 {
   font-weight: 700;
   text-align: center;
 }
+
 .top-box {
   background-color: #f9f7fe;
   text-align: center;
@@ -126,6 +127,7 @@ h1 {
 .facebook-icon {
   padding: 3px 10px;
 }
+
 @media (min-width: 363px) and (max-width: 960px) {
   h1 {
     font-size: 45px;
