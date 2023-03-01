@@ -213,6 +213,9 @@
     font-size: 45px;
     line-height: 65px;
   }
+  .about-content p {
+    padding: 0 20px;
+  }
 }
 
 @media (max-width: 363px) {
@@ -264,5 +267,8 @@
   }
   .about-content .first-column {
     padding: 0;
+  }
+  .about-content p {
+    padding: 0 20px;
   }
 }
