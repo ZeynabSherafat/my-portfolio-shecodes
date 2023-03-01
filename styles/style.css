@@ -156,6 +156,7 @@
   border-radius: 4px;
   padding: 15px 21px;
   font-size: 18px;
+  border: none;
 }
 
 .about-content img {
@@ -199,6 +200,19 @@
   .lets-talk {
     text-align: center;
   }
+  #reverse-column-1 {
+    flex-direction: column-reverse;
+  }
+  .about-content {
+    text-align: center;
+  }
+  .about-content .first-column {
+    padding: 0;
+  }
+  .about-content h1 {
+    font-size: 45px;
+    line-height: 65px;
+  }
 }
 
 @media (max-width: 363px) {
@@ -238,7 +252,17 @@
     font-size: 15px;
     padding: 15px 32px;
   }
-  .about-content row {
+  #reverse-column-1 {
     flex-direction: column-reverse;
+  }
+  .about-content {
+    text-align: center;
+  }
+  .about-content h1 {
+    font-size: 45px;
+    line-height: 65px;
+  }
+  .about-content .first-column {
+    padding: 0;
   }
 }
