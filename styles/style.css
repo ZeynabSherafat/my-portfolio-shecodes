@@ -2,7 +2,7 @@
   --heading-font-family: "Playfair Display", serif;
   --paragraph-font-family: "Poppins", sans-serif;
 }
-h1 {
+.top-box h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
   font-weight: 700;
@@ -128,8 +128,46 @@ h1 {
   padding: 3px 10px;
 }
 
+.about-content {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+.about-content h1 {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  line-height: 90px;
+}
+.about-content h2 {
+  font-family: var(--paragraph-font-family);
+  font-size: 18px;
+}
+.about-content p {
+  font-family: var(--paragraph-font-family);
+  font-size: 16px;
+  line-height: 30px;
+  color: rgba(39, 33, 66, 0.7);
+}
+
+.about-content a {
+  background-color: #6c63ff !important;
+  color: white !important;
+  font-family: var(--paragraph-font-family);
+  font-weight: normal;
+  border-radius: 4px;
+  padding: 15px 21px;
+  font-size: 18px;
+}
+
+.about-content img {
+  border-radius: 20px;
+}
+
+.about-content .first-column {
+  padding-right: 60px;
+}
+
 @media (min-width: 363px) and (max-width: 960px) {
-  h1 {
+  .top-box h1 {
     font-size: 45px;
   }
   .row {
@@ -164,7 +202,7 @@ h1 {
 }
 
 @media (max-width: 363px) {
-  h1 {
+  .top-box h1 {
     font-size: 45px;
   }
   .row {
@@ -199,5 +237,8 @@ h1 {
   .lets-talk-button {
     font-size: 15px;
     padding: 15px 32px;
+  }
+  .about-content row {
+    flex-direction: column-reverse;
   }
 }
