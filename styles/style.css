@@ -166,12 +166,19 @@
 .about-content .first-column {
   padding-right: 60px;
 }
-.work-heading {
+.work-heading,
+.contact-heading {
   font-family: var(--heading-font-family);
   font-size: 64px;
-  padding: 120px 144px;
   text-align: left;
   font-weight: 700;
+}
+.work-heading {
+  padding: 120px 144px;
+}
+.contact-heading {
+  padding: 150px 144px;
+  padding-bottom: 40px;
 }
 .work-content {
   text-align: center;
@@ -243,10 +250,14 @@
   .about-content p {
     padding: 0 20px;
   }
-  .work-heading {
+  .work-heading,
+  .contact-heading {
     font-size: 45px;
     padding: 70px 10px;
     text-align: center;
+  }
+  .contact-heading {
+    padding-bottom: 0px;
   }
 }
 
@@ -304,9 +315,13 @@
   .about-content p {
     padding: 0 20px;
   }
-  .work-heading {
+  .work-heading,
+  .contact-heading {
     font-size: 45px;
     padding: 70px 10px;
     text-align: center;
+  }
+  .contact-heading {
+    padding-bottom: 0px;
   }
 }
