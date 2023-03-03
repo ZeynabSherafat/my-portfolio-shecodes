@@ -72,6 +72,11 @@
   padding: 15px 40px;
   border: 1px solid #6c63ff;
 }
+.app-button:hover {
+  background-color: #6c63ff !important;
+  color: white !important;
+  transition: all 150ms ease-in-out;
+}
 .description {
   margin: 80px 30px;
 }
@@ -110,22 +115,23 @@
 .icons-container {
   margin-bottom: 100px;
 }
-.facebook-icon,
-.twitter-icon,
+.github-icon,
+.linkedin-icon,
 .instagram-icon {
   margin: -32px 20px;
+  padding: 3px 8px;
   color: #6c63ff;
   background: rgba(108, 99, 255, 0.05);
   border-radius: 100%;
   width: 30px;
   height: 30px;
 }
-.twitter-icon,
+.linkedin-icon,
 .instagram-icon {
   padding: 3px 8px;
 }
-.facebook-icon {
-  padding: 3px 10px;
+.github-icon {
+  padding: 3px 7.5px;
 }
 
 .about-content {
