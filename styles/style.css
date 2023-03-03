@@ -2,6 +2,12 @@
   --heading-font-family: "Playfair Display", serif;
   --paragraph-font-family: "Poppins", sans-serif;
 }
+.top-box {
+  background-color: #f9f7fe;
+  text-align: center;
+  padding: 180px 20px;
+}
+
 .top-box h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
@@ -9,17 +15,6 @@
   text-align: center;
 }
 
-.top-box {
-  background-color: #f9f7fe;
-  text-align: center;
-  padding: 180px 20px;
-}
-.top-box p {
-  font-family: var(--paragraph-font-family);
-  font-size: 36px;
-  font-weight: 700;
-  color: #272142;
-}
 .top-box h2 {
   font-family: var(--paragraph-font-family);
   font-size: 24px;
@@ -28,6 +23,14 @@
   margin-bottom: 40px;
   color: #272142;
 }
+
+.top-box p {
+  font-family: var(--paragraph-font-family);
+  font-size: 36px;
+  font-weight: 700;
+  color: #272142;
+}
+
 .get-started,
 .lets-talk-button {
   background-color: #6c63ff !important;
@@ -38,21 +41,26 @@
   padding: 15px 40px;
   font-size: 18px;
 }
+
 .get-started {
   margin-top: 20px;
 }
+
 .lets-talk-button {
   margin-top: 40px;
 }
+
 .first-paragraph {
   margin-top: 60px;
   margin-bottom: 60px;
 }
+
 .project-title {
   font-family: var(--heading-font-family);
   font-size: 64px;
   font-weight: 700;
 }
+
 .project-description {
   font-family: var(--paragraph-font-family);
   font-weight: normal;
@@ -62,6 +70,7 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+
 .app-button {
   background-color: white !important;
   color: #6c63ff !important;
@@ -72,15 +81,18 @@
   padding: 15px 40px;
   border: 1px solid #6c63ff;
 }
+
 .app-button:hover {
   background-color: #6c63ff !important;
   color: white !important;
   border: 1px solid #6c63ff;
   transition: all 150ms ease-in-out;
 }
+
 .description {
   margin: 80px 30px;
 }
+
 .bottom-box {
   background-color: #f9f7fe;
   margin-top: 100px;
@@ -88,6 +100,7 @@
   border-radius: 20px;
   padding: 35px 68px;
 }
+
 .work-inquiry {
   font-family: var(--heading-font-family);
   font-weight: 700;
@@ -100,6 +113,7 @@
   font-size: 15px;
   color: #66617a;
 }
+
 .lets-talk {
   text-align: right;
 }
@@ -113,18 +127,22 @@
   font-family: var(--paragraph-font-family);
   color: black;
 }
+
 .email:hover {
   color: #6c63ff;
   transition: all 150ms ease-in-out;
 }
+
 .icons-container {
   margin-bottom: 100px;
 }
+
 .icons-container a:hover {
   color: white;
   background-color: #6c63ff;
   transition: all 200ms ease-in-out;
 }
+
 .github-icon,
 .linkedin-icon,
 .instagram-icon {
@@ -136,10 +154,12 @@
   width: 30px;
   height: 30px;
 }
+
 .linkedin-icon,
 .instagram-icon {
   padding: 3px 8px;
 }
+
 .github-icon {
   padding: 3px 7.5px;
 }
@@ -148,15 +168,18 @@
   margin-top: 100px;
   margin-bottom: 200px;
 }
+
 .about-content h1 {
   font-family: var(--heading-font-family);
   font-size: 64px;
   line-height: 90px;
 }
+
 .about-content h2 {
   font-family: var(--paragraph-font-family);
   font-size: 18px;
 }
+
 .about-content p {
   font-family: var(--paragraph-font-family);
   font-size: 16px;
@@ -182,6 +205,7 @@
 .about-content .first-column {
   padding-right: 60px;
 }
+
 .work-heading,
 .contact-heading {
   font-family: var(--heading-font-family);
@@ -189,55 +213,67 @@
   text-align: left;
   font-weight: 700;
 }
+
 .work-heading {
   padding: 120px 144px;
 }
+
 .contact-heading {
   padding: 150px 144px;
   padding-bottom: 40px;
 }
+
 .contact-info {
   padding: 0px 144px;
   font-family: var(--paragraph-font-family);
 }
+
 .contact-info h3 {
   font-size: 24px;
   font-weight: 700;
   line-height: 1.5;
 }
+
 .contact-info a {
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;
   color: #0a58ca;
 }
+
 .contact-info a:visited {
   color: #0a58ca;
 }
+
 .work-content {
   text-align: center;
   font-family: var(--paragraph-font-family);
   margin-bottom: 150px;
 }
+
 .work-content h3 {
   font-size: 24px;
   font-weight: 700;
   margin-top: 25px;
 }
+
 .work-content h3 a {
   text-decoration: none;
   color: black;
 }
+
 .work-content h3 a:hover {
   color: #6c63ff;
   transition: all 200ms ease-in-out;
 }
+
 .work-content p {
   font-size: 14px;
   font-weight: 400;
   margin-top: 15px;
   color: #68647b;
 }
+
 .work-content img {
   border-radius: 20px;
 }
@@ -245,9 +281,11 @@
 .open-source-link {
   font-family: var(--paragraph-font-family);
 }
+
 .open-source-link a {
   text-decoration: none;
 }
+
 .open-source-link a:visited {
   color: blue;
 }
