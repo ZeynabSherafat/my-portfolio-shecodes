@@ -75,6 +75,7 @@
 .app-button:hover {
   background-color: #6c63ff !important;
   color: white !important;
+  border: 1px solid #6c63ff;
   transition: all 150ms ease-in-out;
 }
 .description {
@@ -112,8 +113,17 @@
   font-family: var(--paragraph-font-family);
   color: black;
 }
+.email:hover {
+  color: #6c63ff;
+  transition: all 150ms ease-in-out;
+}
 .icons-container {
   margin-bottom: 100px;
+}
+.icons-container a:hover {
+  color: white;
+  background-color: #6c63ff;
+  transition: all 200ms ease-in-out;
 }
 .github-icon,
 .linkedin-icon,
@@ -186,6 +196,24 @@
   padding: 150px 144px;
   padding-bottom: 40px;
 }
+.contact-info {
+  padding: 0px 144px;
+  font-family: var(--paragraph-font-family);
+}
+.contact-info h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+.contact-info a {
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #0a58ca;
+}
+.contact-info a:visited {
+  color: #0a58ca;
+}
 .work-content {
   text-align: center;
   font-family: var(--paragraph-font-family);
@@ -196,6 +224,14 @@
   font-weight: 700;
   margin-top: 25px;
 }
+.work-content h3 a {
+  text-decoration: none;
+  color: black;
+}
+.work-content h3 a:hover {
+  color: #6c63ff;
+  transition: all 200ms ease-in-out;
+}
 .work-content p {
   font-size: 14px;
   font-weight: 400;
@@ -204,6 +240,16 @@
 }
 .work-content img {
   border-radius: 20px;
+}
+
+.open-source-link {
+  font-family: var(--paragraph-font-family);
+}
+.open-source-link a {
+  text-decoration: none;
+}
+.open-source-link a:visited {
+  color: blue;
 }
 
 @media (min-width: 363px) and (max-width: 960px) {
@@ -264,6 +310,14 @@
   }
   .contact-heading {
     padding-bottom: 0px;
+  }
+  .contact-info {
+    text-align: center;
+    margin-top: 50px;
+    padding: 0;
+  }
+  .navbar-brand {
+    margin-left: 3px !important;
   }
 }
 
@@ -329,5 +383,13 @@
   }
   .contact-heading {
     padding-bottom: 0px;
+  }
+  .contact-info {
+    text-align: center;
+    margin-top: 50px;
+    padding: 0;
+  }
+  .navbar-brand {
+    margin-left: 3px !important;
   }
 }
